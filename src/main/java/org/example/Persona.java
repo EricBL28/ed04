@@ -10,11 +10,11 @@ import java.util.List;
  * @see Agenda
  */
 
-class Contacto {
+class Persona {
     private String name;
     private List<String> phones;
 
-    public Contacto(String name, String phone) {
+    public Persona(String name, String phone) {
         this.setName(name);
         this.setPhones(new ArrayList<>());
         this.getPhones().add(phone);
