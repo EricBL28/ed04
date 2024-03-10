@@ -1,6 +1,13 @@
 package org.example;
 
 import java.util.*;
+/**
+ * metodo Agenda
+ * @author eric
+ * @version 1.0
+ * @since 9/03/2025
+ * @see Contacto
+ */
 
 public class Agenda {
     private List<Contacto> contacts; // Lista de Contacto
